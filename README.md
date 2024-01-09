@@ -2,8 +2,8 @@
 # Model description
 Recently, the Vision Transformer (ViT), which applied the transformer structure to the image classification task, has outperformed convolutional neural networks.
 However, the high performance of the ViT results from pre-training using a large-size dataset such as JFT-300M, and its dependence on a large dataset is interpreted as due to low locality inductive bias. 
-This paper proposes Shifted Patch Tokenization (SPT) and Locality Self-Attention (LSA), which effectively solve the lack of locality inductive bias and enable it to learn from scratch even on small-size datasets. 
-Moreover, SPT and LSA are generic and effective add-on modules that are easily applicable to various ViTs.
+This paper proposes Shifted Patch Tokenization (SPT) and Locality Self-Attention (LSA), which effectively solve the lack of locality inductive bias and enable it to learn from scratch even on small-size datasets.
+Moreover I used a 2D sinusoidal positional embedding, global average pooling (no CLS token).
 
 ## Method
 ### Shifted Patch tokenization
