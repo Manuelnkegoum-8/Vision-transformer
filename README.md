@@ -23,8 +23,8 @@ python main.py --epochs 100 --height 32 --width 32 --patch_size 4 --depth 9 --he
 
 ## Results
 The model was trained on CIFAR-10 for 100 epochs with cosine learning rate decay .The learning rate was set at 3e-4. batch size to 128.
-1. Val Accuracy : 84.68%
-2. Train Accuracy : 93.10%
+1. Val Accuracy : 86.00%
+2. Train Accuracy : 93.46%
 
 ## Citation
 ```
