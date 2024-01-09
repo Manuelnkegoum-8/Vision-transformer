@@ -8,13 +8,23 @@ Moreover, SPT and LSA are generic and effective add-on modules that are easily a
 ## Method
 ### Shifted Patch tokenization
 <!-- <div align="center"> -->
-  <img src="SPT.png" width="75%" title="" alt="teaser">
+  <img src="SPT.png" width="25%" title="" alt="teaser">
 <!-- </div> -->
 
 ### Locality Self Attention
 <!-- <div align="center"> -->
-  <img src="LSA.png" width="75%" title="" alt="teaser">
+  <img src="LSA.png" width="25%" title="" alt="teaser">
 <!-- </div> -->
+
+## How to use
+```python
+python main.py --epochs 100 --height 32 --width 32 --patch_size 4 --depth 9 --heads 2 --dim 192 --mlp_dim 384 
+```
+
+## Results
+The model was trained on CIFAR-10 for 100 epochs with cosine learning rate decay .The learning rate was set at 3e-4. batch size to 128.
+1. Val Accuracy : 88%
+2. Train Accuracy : 91%
 
 ## Citation
 ```
